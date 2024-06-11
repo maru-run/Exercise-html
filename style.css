@@ -48,6 +48,7 @@ width: 100%;
   .Header {
       background-color: #fff;
       z-index: 10;
+      position: fixed;
   }
 }
 
@@ -64,6 +65,7 @@ width: 100%;
       padding: 0;
   }
 }
+
 
 
 .Header-inner {
@@ -357,7 +359,7 @@ main {
 }
 
 @media screen and (width <= 767px) {
-  .Firstview-image-main2 {
+  .Firstview-img-main2 {
       display: block;
       margin-bottom: 7px;
       width: 100%;
